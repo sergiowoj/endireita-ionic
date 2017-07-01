@@ -1,0 +1,26 @@
+<ion-view title="Criar chamado" id="page5">
+  <ion-nav-buttons side="left" class="has-header">
+    <button class="button button-icon icon ion-ios-arrow-back"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <form id="criarChamado-form1" class="list">
+      <button id="criarChamado-button15" class="button button-positive  button-block icon-left ion-ios-location">Meu local</button>
+      <div class="spacer" style="width: 300px; height: 18px;"></div>
+      <div id="criarChamado-markdown1" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">Dê detalhes de onde você está</p>
+      </div>
+      <label class="item item-input" id="criarChamado-input2" name="issue-location-info">
+        <input type="text" placeholder="Complemento do local">
+      </label>
+      <div class="spacer" style="width: 300px; height: 18px;"></div>
+      <div id="criarChamado-markdown2" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">Descreva o problema</p>
+      </div>
+      <label class="item item-input issue-description" id="criarChamado-textarea1" name="issue-description">
+        <!-- <span class="input-label"></span> -->
+        <textarea placeholder="Descricão"></textarea></label>
+    </form>
+    <button id="criarChamado-button13" class="button button-positive  button-block button-outline icon-left ion-ios-camera">Tirar uma foto</button>
+    <a ui-sref="tabsController.chamadoEnviado" id="criarChamado-button14" class="button button-positive  button-block pull-bottom">Enviar chamado</a>
+  </ion-content>
+</ion-view>

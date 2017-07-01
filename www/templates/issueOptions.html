@@ -1,0 +1,12 @@
+<ion-view title="Opções de Chamado" id="page2">
+  <ion-content padding="true" class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="issueOption in issueOptionList"
+                class="item-icon-left"
+                ui-sref="createIssue">
+        <i class="icon {{issueOption.icon}}"></i>
+        {{issueOption.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

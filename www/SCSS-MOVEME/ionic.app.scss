@@ -1,0 +1,14 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.pull-bottom {
+	position: relative;
+	bottom: 0;
+}
+
+// CREATE ISSUE
+.issue-description {
+	padding-right: 5px !important;
+	height: 70px;
+	text-align: left;
+}
+
